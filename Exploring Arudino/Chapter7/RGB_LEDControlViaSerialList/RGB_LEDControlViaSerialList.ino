@@ -14,8 +14,7 @@ Serial.begin(9600);
 Serial.setTimeout(10);
 
 //Set pins as outputs
-pinMode(RED, OUTPUT);
-pinMode(GREEN, OUTPUT);
+  pinMode(RED, OUTPUT);`
 pinMode(BLUE, OUTPUT);
 
 //Turn off the LED
